@@ -1,4 +1,4 @@
-pyBprograms is a terminal based application which include basic pythin programs
+pyBprograms is a terminal based application which include basic python programs
 
 Programs Currently added in pyBprograms
 ----------------------------------------
@@ -15,4 +15,4 @@ Programs Currently added in pyBprograms
 
 
 
-PS: I Really want add more programs into pyBprgrams, so i'm accepting contributions.
+PS: I Really want to add more programs to pyBprgrams, so i really appreciate contributions:)
