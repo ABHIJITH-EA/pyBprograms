@@ -281,26 +281,27 @@ def commonLetter(fisrt, second):
         print('nothing is common')
     time.sleep(1)
     print("------finished---------")
+    
+if __name__ == '__main__':
+    while True:
+        print("Choose an option")
+        print("----------------")
+        print("1.Number problems")
+        print("2.List problems")
+        print("3.String problems")
+        print("4.Exit")
+        option = int(input("Enter option:"))
 
-while True:
-    print("Choose an option")
-    print("----------------")
-    print("1.Number problems")
-    print("2.List problems")
-    print("3.String problems")
-    print("4.Exit")
-    option = int(input("Enter option:"))
-
-    if option <= 4 and option >=1:
-        if option == 1:
-            numberProblems()
-        elif option == 2:
-            listProblems()
-        elif option == 3:
-            stringProblems()
+        if option <= 4 and option >=1:
+            if option == 1:
+                numberProblems()
+            elif option == 2:
+                listProblems()
+            elif option == 3:
+                stringProblems()
+            else:
+                sys.exit(0)
         else:
-            sys.exit(0)
-    else:
-        print("invalid option")
-        time.sleep(1)
-        print("------finished---------")
+            print("invalid option")
+            time.sleep(1)
+            print("------finished---------")
